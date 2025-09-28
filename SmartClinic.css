@@ -1,0 +1,27 @@
+SmartClinic/
+│
+├─ Dockerfile
+├─ schema-design.md
+├─ user_stories.md
+│
+├─ app/
+│   └─ src/
+│       └─ main/
+│           └─ java/
+│               └─ com/
+│                   └─ project/
+│                       └─ back_end/
+│                           ├─ controllers/
+│                           │   ├─ DoctorController.java
+│                           │   └─ PrescriptionController.java
+│                           │
+│                           ├─ models/
+│                           │   └─ Doctor.java
+│                           │
+│                           └─ services/
+│                               ├─ AppointmentService.java
+│                               ├─ DoctorService.java
+│                               └─ TokenService.java
+│
+└─ app/src/main/java/com/project/back_end/repo/
+    └─ PatientRepository.java
